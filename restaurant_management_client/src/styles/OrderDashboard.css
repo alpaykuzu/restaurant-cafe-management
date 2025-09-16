@@ -1,0 +1,324 @@
+/* Genel Sayfa Düzeni */
+.order-dashboard-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Başlık ve Durum Mesajları */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #ddd;
+}
+
+.dashboard-title {
+  font-size: 2.2rem;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loading-spinner {
+  font-size: 24px;
+  color: #3498db;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status-message {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.status-message.success {
+  background-color: #e8f9ed;
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.status-message.error {
+  background-color: #fde8e8;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.status-message.info {
+  background-color: #eaf1f1;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+/* Genel İçerik Kutusu */
+.content-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content-header h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Siparişler Izgarası */
+.orders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Sipariş Kartları */
+.order-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.order-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+}
+
+/* Durum Renkleri */
+.status-pending::before {
+  background-color: #f1c40f;
+}
+
+.status-preparing::before {
+  background-color: #3498db;
+}
+
+.status-ready::before {
+  background-color: #2ecc71;
+}
+
+.status-served::before {
+  background-color: #95a5a6;
+}
+
+/* Yeni durum rengi */
+.status-cancelled::before {
+  background-color: #e74c3c;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.status-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.status-pending .status-badge {
+  background-color: #f1c40f;
+}
+
+.status-preparing .status-badge {
+  background-color: #3498db;
+}
+
+.status-ready .status-badge {
+  background-color: #2ecc71;
+}
+
+.status-served .status-badge {
+  background-color: #95a5a6;
+}
+
+/* Yeni durum etiketi rengi */
+.status-cancelled .status-badge {
+  background-color: #e74c3c;
+}
+
+.card-body p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.order-items {
+  margin-top: 10px;
+}
+
+.order-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.order-items li {
+  font-size: 0.9rem;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 8px !important;
+}
+
+.item-quantity {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+/* Buton Stilleri */
+.order-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
+.order-button.primary-btn {
+  background-color: #3498db;
+}
+
+.order-button.primary-btn:hover {
+  background-color: #2980b9;
+}
+
+.order-button.success-btn {
+  background-color: #2ecc71;
+}
+
+.order-button.success-btn:hover {
+  background-color: #27ae60;
+}
+
+/* Yeni iptal butonu stili */
+.order-button.cancel-btn {
+  background-color: #e74c3c;
+}
+
+.order-button.cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+.order-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Veri Yok Mesajı */
+.no-data-message {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  padding: 40px;
+  border-radius: 12px;
+  border: 2px dashed #dcdde1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.no-data-message p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .order-dashboard-container {
+    padding: 16px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

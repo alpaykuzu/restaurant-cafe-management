@@ -1,0 +1,238 @@
+/* Genel Sayfa Düzeni */
+.payment-management-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.chart-container {
+  display: flex;
+  flex-wrap: wrap; /* Küçük ekranlarda alt satıra geçmesini sağlar */
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.chart-section {
+  flex: 1 1 calc(50% - 12px); /* 12px gap'i dengelemek için */
+  min-width: 300px; /* Grafiklerin çok küçülmesini engeller */
+}
+
+/* Responsive Tasarım - Mobil Uyumlu */
+@media (max-width: 992px) {
+  .chart-container {
+    flex-direction: column; /* Tablet ve mobil cihazlarda grafikleri alt alta gösterir */
+  }
+}
+.chart-container {
+  display: flex;
+  flex-wrap: wrap; /* Küçük ekranlarda alt satıra geçmesini sağlar */
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.chart-section {
+  flex: 1 1 calc(50% - 12px); /* 12px gap'i dengelemek için */
+  min-width: 300px; /* Grafiklerin çok küçülmesini engeller */
+}
+
+/* Responsive Tasarım - Mobil Uyumlu */
+@media (max-width: 992px) {
+  .chart-container {
+    flex-direction: column; /* Tablet ve mobil cihazlarda grafikleri alt alta gösterir */
+  }
+}
+
+/* Başlık ve Durum Mesajları */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  color: #34495e;
+  font-weight: 600;
+  margin: 0;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loading-spinner {
+  font-size: 24px;
+  color: #3498db;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status-message {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-message.success {
+  background-color: #e8f9ed;
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.status-message.error {
+  background-color: #fde8e8;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.status-message.info {
+  background-color: #eaf1f1;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+/* Kartlar ve Genel İçerik Kutuları */
+.content-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Tablo Stilleri */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 14px;
+}
+
+.data-table th {
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.data-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.data-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.data-table td ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.data-table td ul li {
+  font-size: 13px;
+  color: #555;
+  white-space: nowrap;
+}
+
+/* Bilgi Mesajı */
+.info-message {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-message svg {
+  font-size: 2.5rem;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .payment-management-container {
+    padding: 16px;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .status-container {
+    margin-top: 10px;
+  }
+
+  .data-table thead {
+    display: none;
+  }
+
+  .data-table tr {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f2f2f2;
+  }
+
+  .data-table td {
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 12px 16px;
+    position: relative;
+  }
+
+  .data-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+  }
+}

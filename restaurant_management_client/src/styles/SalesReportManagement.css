@@ -1,0 +1,220 @@
+/* Genel Sayfa Düzeni */
+.sales-report-management-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Başlık ve Durum Mesajları */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  color: #34495e;
+  font-weight: 600;
+  margin: 0;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loading-spinner {
+  font-size: 24px;
+  color: #3498db;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status-message {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-message.success {
+  background-color: #e8f9ed;
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.status-message.error {
+  background-color: #fde8e8;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.status-message.info {
+  background-color: #eaf1f1;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+/* Kartlar ve Genel İçerik Kutuları */
+.content-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Filtre ve Buton Stilleri */
+.date-filters {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.filter-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #555;
+  font-size: 14px;
+}
+
+.filter-input {
+  padding: 8px 12px;
+  margin-top: 6px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.generate-report-btn {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.generate-report-btn:hover {
+  background-color: #27ae60;
+  transform: translateY(-2px);
+}
+
+.generate-report-btn:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-spinner {
+  animation: spin 1s linear infinite;
+}
+
+/* Rapor Özeti Kartı */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.summary-item {
+  background-color: #f7f9fb;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.summary-item h4 {
+  margin: 0 0 8px;
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.summary-item .summary-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #34495e;
+  margin: 0;
+}
+
+/* Bilgi Mesajı */
+.info-message {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-message svg {
+  font-size: 2.5rem;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .sales-report-management-container {
+    padding: 16px;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .status-container {
+    margin-top: 10px;
+  }
+  .date-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .generate-report-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

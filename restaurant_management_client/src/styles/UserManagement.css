@@ -1,0 +1,252 @@
+/* Genel Sayfa Kapsayıcısı ve Bileşen Yapısı */
+.main-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #ddd;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.title-icon {
+  font-size: 2.5rem;
+  color: #3498db;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loading-spinner {
+  font-size: 24px;
+  color: #3498db;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status-message {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.status-message.success {
+  background-color: #e8f9ed;
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.status-message.error {
+  background-color: #fde8e8;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.status-message.info {
+  background-color: #eaf1f1;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+/* Ana İçerik Kartı */
+.content-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+/* Tablo Stilleri */
+.table-responsive-wrapper {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.data-table th,
+.data-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.data-table thead th {
+  background-color: #f5f5f5;
+  color: #555;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.data-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Roller ve Etiket Stilleri */
+.role-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.role-tag {
+  background-color: #e6e6e6;
+  color: #555;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s;
+}
+
+.role-tag:hover {
+  background-color: #d4d4d4;
+}
+
+.remove-role-btn {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.remove-role-btn:hover {
+  color: #c0392b;
+}
+
+/* İşlem Seçim Alanı ve Butonları */
+.action-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.role-select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-width: 120px;
+  transition: border-color 0.2s;
+}
+
+.role-select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.action-button {
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.add-role-btn {
+  background-color: #2ecc71;
+}
+
+.add-role-btn:hover {
+  background-color: #27ae60;
+}
+
+/* Veri Yok Mesajı */
+.no-data-message {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Duyarlı Tasarım (Responsive) */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 16px;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .data-table thead {
+    display: none;
+  }
+
+  .data-table tr {
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .data-table td {
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    padding: 12px 16px;
+    position: relative;
+  }
+
+  .data-table td:last-child {
+    border-bottom: none;
+  }
+
+  .data-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+  }
+}

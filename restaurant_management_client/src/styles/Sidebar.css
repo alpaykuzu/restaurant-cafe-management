@@ -1,0 +1,149 @@
+/* Ana Kapsayıcı: Sidebar'ın genel stilini belirler. */
+.res-sidebar-container {
+  /* Renk ve boyut ayarları */
+  width: 280px;
+  background-color: #1a202c; /* Koyu arka plan */
+  color: #e2e8f0; /* Açık metin rengi */
+  min-height: 100vh;
+  padding: 24px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sidebar Başlığı */
+.res-sidebar-header {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #2d3748;
+  margin-bottom: 24px;
+}
+
+.res-sidebar-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #4fd1c5; /* Vurgu rengi */
+}
+
+/* Navigasyon Bölümü */
+.res-sidebar-nav {
+  flex-grow: 1; /* İçeriğin esnek bir şekilde dolmasını sağlar */
+}
+
+.res-sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ana Menü Grupları (Admin, Manager vb.) */
+.res-menu-group {
+  margin-bottom: 20px;
+}
+
+.res-menu-group-header {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* İkon ve yazı arasındaki boşluk */
+  font-size: 16px;
+  font-weight: 600;
+  color: #cbd5e0;
+  padding: 12px 16px;
+  background-color: #2d3748;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+/* Alt Menü (Submenu) */
+.res-submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.res-submenu-item {
+  margin-bottom: 4px;
+}
+
+.res-submenu-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  color: #a0aec0;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.res-submenu-link:hover {
+  background-color: #4a5568;
+  color: #fff;
+}
+
+.res-submenu-link.is-active {
+  background-color: #4fd1c5;
+  color: #1a202c;
+  font-weight: 600;
+}
+
+.res-submenu-link svg {
+  font-size: 20px;
+}
+
+/* Mobil Menü Butonu: Sadece küçük ekranlarda görünür. */
+.mobile-menu-toggle {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1100;
+  display: none; /* Başlangıçta gizli */
+  background-color: #4fd1c5;
+  color: #1a202c;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.mobile-menu-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Masaüstü ve Tablet Ekranlar (769px ve üzeri) */
+@media (min-width: 769px) {
+  .mobile-menu-toggle {
+    display: none; /* Büyük ekranlarda hamburger butonu gizlenir */
+  }
+
+  .res-sidebar-container {
+    transform: translateX(0); /* Menü her zaman görünür */
+  }
+}
+
+/* Küçük Ekranlar (768px ve altı) */
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block; /* Küçük ekranlarda hamburger butonu görünür */
+  }
+
+  .res-sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 280px;
+    z-index: 1000;
+    transform: translateX(-100%); /* Başlangıçta ekranın solunda gizle */
+    transition: transform 0.3s ease-in-out; /* Açılma/kapanma animasyonu */
+  }
+
+  /* Menü açıkken bu sınıf eklenir ve menü ekrana gelir. */
+  .res-sidebar-container.is-open {
+    transform: translateX(0); /* Menüyü ekrana kaydırarak aç */
+  }
+}

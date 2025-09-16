@@ -1,0 +1,41 @@
+/* Ana Kapsayıcı: Sidebar ve İçeriğin Yanyana Durmasını Sağlar */
+.res-layout-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Ana İçerik Alanı: Outlet'in Yerleştiği Kısım */
+.res-layout-main {
+  flex: 1; /* Mevcut alanı doldurmasını sağlar */
+  padding: 24px;
+  background-color: #f8f9fa; /* Daha yumuşak bir arka plan rengi */
+  overflow-y: auto; /* İçerik taştığında kaydırma çubuğu ekler */
+}
+
+/* Sayfa Başlığı ve İçerik Düzeni */
+.res-content-header {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 16px;
+}
+
+.res-content-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #343a40;
+}
+
+/* --- Duyarlı Tasarım (Responsive Design) --- */
+
+/* Küçük Ekranlar (Mobil) İçin */
+@media (max-width: 768px) {
+  /* Ana düzeni değiştirerek menüyü ve ana içeriği ayırırız */
+  .res-layout-container {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .res-layout-main {
+    padding-top: 60px; /* Mobil butonun altından başlaması için boşluk */
+  }
+}
