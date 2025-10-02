@@ -3,84 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\service\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|solutionrelative:service\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\service\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|solutionrelative:service\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\service\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|solutionrelative:service\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\salesreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\salesreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\menuitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\menuitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\inventorytransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\inventorytransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\inventoryitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\data\\configurations\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|solutionrelative:data\\configurations\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\hubs\\restauranthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\hubs\\restauranthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\service\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|solutionrelative:service\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\service\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|solutionrelative:service\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\service\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9671AD2A-C3A3-43D0-946D-08B0EFCB04F6}|Service\\Service.csproj|solutionrelative:service\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82FC5104-5745-403B-9B6A-32D28F3BC557}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|solutionrelative:data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39B50A5-0174-4F11-990E-61AAED044522}|Data\\Data.csproj|solutionrelative:data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|c:\\users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95B61E6E-1BF7-4617-B937-388E9B6F79C6}|Core\\Core.csproj|solutionrelative:core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,12 +93,220 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 815,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryTransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InventoryTransactionController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\InventoryTransactionController.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InventoryTransactionController.cs",
+              "RelativeToolTip": "API\\Controllers\\InventoryTransactionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:54:34.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:54:26.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\Configurations\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\Configurations\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Data\\Configurations\\AutoMapperProfile.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T14:16:12.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:11:39.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwHUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T16:54:12.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RestaurantHub.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Hubs\\RestaurantHub.cs",
+              "RelativeDocumentMoniker": "Core\\Hubs\\RestaurantHub.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Hubs\\RestaurantHub.cs",
+              "RelativeToolTip": "Core\\Hubs\\RestaurantHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:27:21.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\TableService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\TableService.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\TableService.cs",
+              "RelativeToolTip": "Service\\Services\\TableService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:32:15.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:52:25.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\AuthService.cs",
+              "RelativeToolTip": "Service\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:50:10.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\TokenService.cs",
+              "RelativeToolTip": "Service\\Services\\TokenService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:48:33.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "Core\\Models\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:46:46.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:44:57.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\Employee.cs",
+              "RelativeToolTip": "Core\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:25:39.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\User.cs",
+              "RelativeToolTip": "Core\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:22:39.42Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Models\\Role.cs",
+              "RelativeToolTip": "Core\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:22:56.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA4wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T16:47:59.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -106,245 +318,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
               "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\appsettings.json",
               "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-16T09:11:28.224Z",
+              "WhenOpened": "2025-09-24T16:54:23.067Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RestaurantService.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\RestaurantService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\RestaurantService.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\RestaurantService.cs",
-              "RelativeToolTip": "Service\\Services\\RestaurantService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T19:10:43.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\AuthService.cs",
-              "RelativeToolTip": "Service\\Services\\AuthService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:57:47.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:55:53.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\RoleService.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Service\\Services\\RoleService.cs",
-              "RelativeToolTip": "Service\\Services\\RoleService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAD4v0EAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:49:49.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:40:10.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TableController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\TableController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\TableController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\TableController.cs",
-              "RelativeToolTip": "API\\Controllers\\TableController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:39:31.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SalesReportController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\SalesReportController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\SalesReportController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\SalesReportController.cs",
-              "RelativeToolTip": "API\\Controllers\\SalesReportController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:39:23.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "API\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:38:51.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestaurantController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\RestaurantController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\RestaurantController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\RestaurantController.cs",
-              "RelativeToolTip": "API\\Controllers\\RestaurantController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:35:40.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "API\\Controllers\\ReservationController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:35:35.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "API\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:34:29.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "API\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:33:46.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MenuItemController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\MenuItemController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\MenuItemController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\MenuItemController.cs",
-              "RelativeToolTip": "API\\Controllers\\MenuItemController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:33:05.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "InvoiceController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InvoiceController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\InvoiceController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InvoiceController.cs",
-              "RelativeToolTip": "API\\Controllers\\InvoiceController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:32:04.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "InventoryTransactionController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InventoryTransactionController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\InventoryTransactionController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InventoryTransactionController.cs",
-              "RelativeToolTip": "API\\Controllers\\InventoryTransactionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:31:53.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InventoryItemController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InventoryItemController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\InventoryItemController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\InventoryItemController.cs",
-              "RelativeToolTip": "API\\Controllers\\InventoryItemController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:31:45.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:30:25.75Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Title": "IUnitofWork.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\IUnitofWork.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IUnitofWork.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\IUnitofWork.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IUnitofWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:25:11.846Z"
+              "WhenOpened": "2025-09-24T16:47:14.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "UnitofWork.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\UnitofWork\\UnitofWork.cs",
+              "RelativeDocumentMoniker": "Data\\UnitofWork\\UnitofWork.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\UnitofWork\\UnitofWork.cs",
+              "RelativeToolTip": "Data\\UnitofWork\\UnitofWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T18:24:31.145Z"
+              "WhenOpened": "2025-09-24T16:09:47.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Data\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T16:09:43.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\alpay\\source\\repos\\restaurant-cafe-management\\restaurant_management_backend\\Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T16:09:41.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 944,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
