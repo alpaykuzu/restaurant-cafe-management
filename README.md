@@ -1,4 +1,4 @@
-# 🍽️ Restaurant/Cafe Management System
+# 🍽️ Restaurant/Cafe Management System 
 
 A full-stack web application designed to streamline and automate daily restaurant operations. The system provides a robust role-based access control (RBAC) interface, enabling different staff members—from administrators to kitchen staff—to manage specific tasks efficiently.
 
